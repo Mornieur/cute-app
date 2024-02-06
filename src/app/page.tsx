@@ -22,6 +22,7 @@ const Home: React.FC = () => {
     justifyContent: 'center',
     gap: '10px',
     marginTop: '20px',
+    fontFamily: 'cursive',
   };
 
   const [noButtonStyle, setNoButtonStyle] = useState<CSSProperties>({
